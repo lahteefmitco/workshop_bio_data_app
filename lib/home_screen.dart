@@ -21,14 +21,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        toolbarHeight: 100,
         elevation: 12,
         title: const Text("CURRICULUM VITAE"),
         centerTitle: true,
-        titleTextStyle: const TextStyle(
-          fontSize: 36,
-          fontWeight: FontWeight.bold,
-        ),
       ),
 
       // body part
